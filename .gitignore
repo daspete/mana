@@ -1,0 +1,9 @@
+.env
+dist
+build
+.nuxt
+node_modules
+temp
+tmp
+*.lock
+*.log
