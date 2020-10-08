@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "daspete <daspetemail@gmail.com>",
   "private": true,
@@ -19,7 +19,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@manablox/helloworld": "^0.0.2"
+    "@manablox/helloworld": "^0.1.0"
   },
   "gitHead": "5997ed2e08df6980359219dfc918b692850f788c"
 }
