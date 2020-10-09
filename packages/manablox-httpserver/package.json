@@ -1,0 +1,25 @@
+{
+  "name": "manablox-httpserver",
+  "version": "1.0.0",
+  "description": "an express wrapper for manablox",
+  "keywords": [
+    "http",
+    "server",
+    "manablox",
+    "express"
+  ],
+  "author": "daspete <daspetemail@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "manablox",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "dev": "lerna run dev --parallel --stream --no-bail",
+    "build": "lerna run build --stream --no-bail",
+    "start": "lerna run start --parallel --stream --no-bail"    
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

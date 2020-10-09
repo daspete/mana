@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "conventionalCommits": true,
+  "changelog": {
+    "labels": {
+      "feat": "New Feature",
+      "fix": "Bug Fix",
+      "docs": "Documentation",
+      "style": "Code style update",
+      "perf": "Performance",
+      "refactor": "Code Refactoring"
+    }
+  }
+}
