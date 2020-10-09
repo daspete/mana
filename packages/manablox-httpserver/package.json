@@ -1,6 +1,6 @@
 {
   "name": "manablox-httpserver",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "an express wrapper for manablox",
   "keywords": [
     "http",
@@ -28,6 +28,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.1.1",
-    "manablox-logger": "^1.0.1"
+    "manablox-logger": "^1.1.0"
   }
 }
