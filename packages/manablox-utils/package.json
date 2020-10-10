@@ -1,0 +1,20 @@
+{
+  "name": "manablox-utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "daspete <daspetemail@gmail.com>",
+  "homepage": "https://github.com/daspete/mana#readme",
+  "license": "ISC",
+  "directories": {},
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daspete/mana.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/daspete/mana/issues"
+  }
+}
