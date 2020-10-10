@@ -10,7 +10,7 @@
   ],
   "author": "daspete <daspetemail@gmail.com>",
   "homepage": "https://github.com/daspete/mana#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
