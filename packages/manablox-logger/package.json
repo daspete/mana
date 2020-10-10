@@ -19,5 +19,9 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "signale": "^1.4.0",
+    "winston": "^3.3.3"
   }
 }
