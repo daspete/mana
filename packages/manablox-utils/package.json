@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "daspete <daspetemail@gmail.com>",
   "homepage": "https://github.com/daspete/mana#readme",
-  "license": "ISC",
+  "license": "MIT",
   "directories": {},
   "files": [],
   "repository": {
@@ -16,5 +16,6 @@
   },
   "bugs": {
     "url": "https://github.com/daspete/mana/issues"
-  }
+  },
+  "gitHead": "20402d85333c0df6522b3dc7ce9d1db5b4bb5f22"
 }
