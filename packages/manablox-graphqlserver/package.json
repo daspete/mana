@@ -1,6 +1,6 @@
 {
   "name": "manablox-graphqlserver",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "> TODO: description",
   "keywords": [
     "graphql",
@@ -30,6 +30,6 @@
     "url": "https://github.com/daspete/mana/issues"
   },
   "dependencies": {
-    "manablox-httpserver": "^1.2.0"
+    "manablox-httpserver": "^1.3.0"
   }
 }
