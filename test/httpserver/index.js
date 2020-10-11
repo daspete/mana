@@ -1,13 +1,13 @@
-const httpServer = require('manablox-httpserver')
+const HttpServer = require('manablox-httpserver')
 const serverConfig = require('./config/server')
 
+const server = new HttpServer()
+
+server.Initialize(serverConfig)
 
 
-httpServer.Initialize(serverConfig)
-
-
-httpServer.Get('/', async (req, res, next) => {
+server.Get('/', async (req, res, next) => {
     res.json({ hello: 'world' })
 })
 
-httpServer.Start()
+server.Start()

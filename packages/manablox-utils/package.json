@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/daspete/mana/issues"
   },
-  "gitHead": "20402d85333c0df6522b3dc7ce9d1db5b4bb5f22"
+  "gitHead": "20402d85333c0df6522b3dc7ce9d1db5b4bb5f22",
+  "dependencies": {
+    "find": "^0.3.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.2.4"
+  }
 }

@@ -20,7 +20,12 @@ class HttpServer {
     }
 
     Initialize(config){
-        this.config = config 
+        this.config = config
+        
+        if(!this.config){
+            this.logger.Log('no server config defined')
+            return
+        }
 
         this.app = express()
         if(!this.config.helmet.disabled) this.app.use(helmet(this.config.helmet.options))
@@ -77,7 +82,5 @@ class HttpServer {
     
 }
 
-const httpServer = new HttpServer()
-
-module.exports = httpServer
+module.exports = HttpServer
 
