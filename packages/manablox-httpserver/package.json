@@ -31,5 +31,6 @@
     "find": "^0.3.0",
     "helmet": "^4.1.1",
     "manablox-logger": "^1.2.0"
-  }
+  },
+  "gitHead": "fbbb38cb9d3421a9c409b98824440023a2dfda7e"
 }
