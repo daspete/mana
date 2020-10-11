@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/daspete/mana/compare/manablox-httpserver@1.4.0...manablox-httpserver@1.5.0) (2020-10-11)
+
+
+### Features
+
+* version push ([ae46971](https://github.com/daspete/mana/commit/ae469711d2631d36e319a339fc0b4f4af7b1cbe6))
+
+
+
+
+
 # [1.4.0](https://github.com/daspete/mana/compare/manablox-httpserver@1.3.0...manablox-httpserver@1.4.0) (2020-10-11)
 
 
