@@ -20,8 +20,6 @@ class Frontend {
     }
 
     Start(){
-
-
         this.httpServer.Start()
     }
 }
