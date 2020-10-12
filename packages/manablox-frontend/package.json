@@ -1,0 +1,30 @@
+{
+  "name": "manablox-frontend",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "daspete <daspetemail@gmail.com>",
+  "homepage": "https://github.com/daspete/mana#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daspete/mana.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/daspete/mana/issues"
+  },
+  "dependencies": {
+    "manablox-httpserver": "^1.5.0",
+    "nuxt": "^2.14.6"
+  }
+}
