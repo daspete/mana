@@ -1,4 +1,5 @@
 const path = require('path')
+const Logger = require('manablox-logger')
 
 const MongoDB = require('./mongodb')
 
@@ -14,7 +15,7 @@ class Database {
         
         try {
             this.database.Connect()
-        }catch(err){ console.log('DB connection error', err) }
+        }catch(err){ Logger.Log('DB connection error', err) }
     }
 
     async Count(params){

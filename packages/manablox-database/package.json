@@ -24,6 +24,7 @@
     "url": "https://github.com/daspete/mana/issues"
   },
   "dependencies": {
+    "manablox-logger": "^1.2.0",
     "mongodb": "^3.6.2"
   }
 }
