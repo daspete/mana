@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/daspete/mana/compare/manablox-graphqlserver@1.4.0...manablox-graphqlserver@1.5.0) (2020-10-12)
+
+
+### Features
+
+* added databse provider to graphqlserver, updated test ([b5b10b1](https://github.com/daspete/mana/commit/b5b10b111772fb3eb4c8e9f9940aff50fbc24edb))
+
+
+
+
+
 # [1.4.0](https://github.com/daspete/mana/compare/manablox-graphqlserver@1.3.0...manablox-graphqlserver@1.4.0) (2020-10-11)
 
 
