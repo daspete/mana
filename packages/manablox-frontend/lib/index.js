@@ -1,4 +1,5 @@
 const HttpServer = require('manablox-httpserver')
+const { Nuxt, Builder } = require('nuxt')
 
 class Frontend {
     constructor(){
@@ -6,9 +7,13 @@ class Frontend {
 
         this.httpServer = new HttpServer()
         this.logger = this.httpServer.logger
+
+        this.nuxt = null
+        this.builder = null
     }
 
-    Initialize(serverConfig, clientConfig){
+    async Initialize(serverConfig, clientConfig){
+        
         this.httpServer.Initialize(serverConfig)
 
         if(!clientConfig){
@@ -16,10 +21,21 @@ class Frontend {
             return
         }
 
+
+        clientConfig.dev = process.env.NODE_ENV === 'development'
+
         this.config = clientConfig
+
+
+        this.nuxt = new Nuxt(this.config)
+        this.builder = new Builder(this.nuxt)
+
+        await this.builder.build()
     }
 
     Start(){
+        this.httpServer.Use(this.nuxt.render)
+
         this.httpServer.Start()
     }
 }
