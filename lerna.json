@@ -8,7 +8,7 @@
   "conventionalCommits": true,
   "command": {
     "version": {
-      "message": "chore(release): publish %v"
+      "message": "chore(release): publish"
     }
   },
   "changelog": {
