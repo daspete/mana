@@ -5,8 +5,16 @@
   "author": "daspete <daspetemail@gmail.com>",
   "homepage": "https://github.com/daspete/mana#readme",
   "license": "MIT",
-  "directories": {},
-  "files": [],
+  "directories": {
+    "Sleep": "Sleep",
+    "LoadGraphQLResolvers": "LoadGraphQLResolvers",
+    "LoadGraphQLSchemas": "LoadGraphQLSchemas"
+  },
+  "files": [
+    "Sleep",
+    "LoadGraphQLResolvers",
+    "LoadGraphQLSchemas"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daspete/mana.git"
