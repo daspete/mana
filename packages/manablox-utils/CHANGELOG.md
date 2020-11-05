@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/daspete/mana/compare/manablox-utils@1.3.0...manablox-utils@1.3.1) (2020-11-05)
+
+
+### Bug Fixes
+
+* fixed missing files and directories in package.json ([0b4a2e1](https://github.com/daspete/mana/commit/0b4a2e14e6391f7b91295a4ad335717b79a0b91d))
+
+
+
+
+
 # [1.3.0](https://github.com/daspete/mana/compare/manablox-utils@1.2.0...manablox-utils@1.3.0) (2020-10-11)
 
 

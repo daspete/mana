@@ -1,6 +1,6 @@
 {
   "name": "manablox-graphqlserver",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "> TODO: description",
   "keywords": [
     "graphql",
@@ -33,7 +33,7 @@
     "apollo-server-express": "^2.18.2",
     "manablox-database": "^1.2.0",
     "manablox-httpserver": "^1.5.0",
-    "manablox-utils": "^1.3.0"
+    "manablox-utils": "^1.3.1"
   },
   "gitHead": "fbbb38cb9d3421a9c409b98824440023a2dfda7e"
 }
