@@ -14,7 +14,7 @@
   "changelog": {
     "labels": {
       "feat": "New Feature",
-      "fix": "Bug Fix",
+      "fix": "Bug Fix or Optimization",
       "docs": "Documentation",
       "style": "Code style update",
       "perf": "Performance",
