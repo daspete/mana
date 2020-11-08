@@ -2,8 +2,8 @@ require('dotenv').config()
 
 module.exports = {
     // server ip and port
-    ip: process.env.SERVER_IP || '127.0.0.1',
-    port: process.env.SERVER_PORT || 3000,
+    ip: process.env.IP || '127.0.0.1',
+    port: process.env.PORT || 3000,
 
 
     // autorouting adds automatically routes recursively from the given path
