@@ -1,1 +1,1 @@
-web: cd test/graphqlserver/;node index.js
+api: cd test/graphqlserver/;node index.js
