@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "engines": {
+    "node": "13.14.0"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "dev": "lerna run dev --parallel --stream --no-bail",
