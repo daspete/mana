@@ -1,1 +1,0 @@
-web: cd test/frontend/;node index.js
