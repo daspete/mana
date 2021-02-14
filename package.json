@@ -11,7 +11,9 @@
     "bootstrap": "lerna bootstrap --use-workspaces",
     "dev": "lerna run dev --parallel --stream --no-bail",
     "build": "lerna run build --stream --no-bail",
-    "start": "lerna run start --parallel --stream --no-bail"    
+    "start": "lerna run start --parallel --stream --no-bail",
+
+    "manacontrol": "packages/manablox-control/bin/index"
   },
   "devDependencies": {
     "lerna": "^3.22.1"

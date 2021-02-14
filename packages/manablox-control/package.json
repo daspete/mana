@@ -1,0 +1,30 @@
+{
+  "name": "manablox-control",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "daspete <daspetemail@gmail.com>",
+  "homepage": "https://github.com/daspete/mana#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "manacontrol": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daspete/mana.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/daspete/mana/issues"
+  }
+}
