@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/index.js",
   "bin": {
-    "manacontrol": "bin/index.js"
+    "manacontrol": "bin/index"
   },
   "directories": {
     "lib": "lib",
