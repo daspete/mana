@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/daspete/mana/compare/manablox-control@1.1.1...manablox-control@1.1.2) (2021-02-14)
+
+
+### Bug Fixes
+
+* fixed missing dependency ([38d2c68](https://github.com/daspete/mana/commit/38d2c68b3ae5b200bff8bef712bbba3d9a3e5d90))
+
+
+
+
+
 ## [1.1.1](https://github.com/daspete/mana/compare/manablox-control@1.1.0...manablox-control@1.1.1) (2021-02-14)
 
 
