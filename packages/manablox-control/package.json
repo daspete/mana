@@ -26,5 +26,8 @@
   },
   "bugs": {
     "url": "https://github.com/daspete/mana/issues"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
   }
 }
